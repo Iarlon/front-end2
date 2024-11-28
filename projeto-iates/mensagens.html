@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/getMensagens.js"></script>
+</head>
+<body>
+    <h1>Mensagens Recebidas</h1>
+    <button onclick="preencherTabelaMensagens()">Receber Mensagens</button>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Mensagem</th>
+            </tr>
+        </thead>
+        <tbody id="mensagensTableBody">
+        </tbody>
+    </table>
+</body>
+</html>
